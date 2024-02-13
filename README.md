@@ -13,6 +13,9 @@ Add the workflow you want to use to the `.github/workflows` directory in your ow
 
 # android
 `android-production-build.yml` - builds an AAB using your signing credentials that are stored in EAS. Once workflow has completed, the artifact is accessible under the workflow run.
+<br/>
+<br/>
+`android-apk-build.yml` - builds a preview APK. Once workflow has completed, the artifact is accessible under the workflow run.
 
 ![alt text](image.png)
 
