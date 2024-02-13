@@ -2,7 +2,7 @@
 A collection of workflows that use Expo and EAS to build React Native apps.
 
 # contributing
-Please feel free to provide your own workflows that may be useful to other people, or any improvements you have to existing ones. For more information, please see the contributing file.
+Please feel free to provide your own workflows that may be useful to other people, or any improvements you have to existing ones. For more information, please see the [contributing file](./CONTRIBUTING.md).
 
 # usage
 > **WARNING"" - these builds take around 10-20 minutes to run. Please be wary of your GitHub actions allowance to avoid incurring any unintentional costs.
