@@ -17,7 +17,7 @@ Add the workflow you want to use to the `.github/workflows` directory in your ow
 <br/>
 `android-apk-build.yml` - builds a preview APK. Once workflow has completed, the artifact is accessible under the workflow run.
 
-![alt text](image.png)
+![alt text](assets/build-artifact.png)
 
 # ios
 `ios-production-build.yml` - builds an IPA using your signing credentials and provisioning profile that are stored in EAS. Once workflow has completed, the artifact is accessible under the workflow run. You can submit this file to the app store by using EAS submit.
