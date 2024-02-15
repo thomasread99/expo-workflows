@@ -1,4 +1,4 @@
-name: Android App APK Build
+name: Android Development Build
 
 on:
   # Specify when you want the build to run here
@@ -36,7 +36,7 @@ jobs:
         run: npm ci
 
       - name: Build Android app
-        run: eas build --platform android --profile preview --local --output ${{ github.workspace }}/app-release.apk
+        run: eas build --platform android --profile development --local --output ${{ github.workspace }}/app-release.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v2
