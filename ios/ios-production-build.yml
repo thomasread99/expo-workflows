@@ -3,6 +3,12 @@ name: iOS App Release Build
 on:
   # Specify when you want the build to run here
 
+# Build the app with .env
+env:
+  EXPO_PUBLIC_API_URL: ${{secrets.EXPO_PUBLIC_API_URL}}
+  EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID: ${{secrets.EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID}}
+  ....
+
 jobs:
   build:
     runs-on: macos-latest
